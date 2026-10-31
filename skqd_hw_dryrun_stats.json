@@ -1,0 +1,45 @@
+{
+  "backend": "fake_fez",
+  "circuits": [
+    {
+      "k": 0,
+      "depth": 36,
+      "two_qubit_gates": 28
+    },
+    {
+      "k": 1,
+      "depth": 439,
+      "two_qubit_gates": 912
+    },
+    {
+      "k": 2,
+      "depth": 462,
+      "two_qubit_gates": 1309
+    },
+    {
+      "k": 3,
+      "depth": 1149,
+      "two_qubit_gates": 2204
+    },
+    {
+      "k": 4,
+      "depth": 2219,
+      "two_qubit_gates": 2875
+    },
+    {
+      "k": 5,
+      "depth": 2157,
+      "two_qubit_gates": 3840
+    },
+    {
+      "k": 6,
+      "depth": 2694,
+      "two_qubit_gates": 4300
+    },
+    {
+      "k": 7,
+      "depth": 3087,
+      "two_qubit_gates": 4818
+    }
+  ]
+}

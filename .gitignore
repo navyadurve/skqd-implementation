@@ -221,3 +221,4 @@ __marimo__/
 test.py
 .vscode/
 vectors.ipynb
+.env

@@ -1,0 +1,69 @@
+{
+  "mode": "hardware",
+  "backend": "ibm_fez",
+  "norb": 20,
+  "krylov_dim": 8,
+  "time_step": 0.2,
+  "shots_per_circuit": 500,
+  "total_shots": 4000,
+  "reference_energy_dmrg": -28.70659686,
+  "best_energy_per_iteration": [
+    -28.61443496813361,
+    -28.665647065245896,
+    -28.668369896122833,
+    -28.688691244594676,
+    -28.695743707427567
+  ],
+  "subspace_dim_per_iteration": [
+    11025,
+    42025,
+    39601,
+    38025,
+    47961
+  ],
+  "sqd_energy": -28.695743707427567,
+  "recomputed_energy_rdm": -28.695743707427567,
+  "absolute_error": 0.0108531525724338,
+  "transpiled_circuits": [
+    {
+      "k": 0,
+      "depth": 36,
+      "two_qubit_gates": 28
+    },
+    {
+      "k": 1,
+      "depth": 455,
+      "two_qubit_gates": 840
+    },
+    {
+      "k": 2,
+      "depth": 846,
+      "two_qubit_gates": 1579
+    },
+    {
+      "k": 3,
+      "depth": 1733,
+      "two_qubit_gates": 2092
+    },
+    {
+      "k": 4,
+      "depth": 1638,
+      "two_qubit_gates": 3011
+    },
+    {
+      "k": 5,
+      "depth": 1391,
+      "two_qubit_gates": 3316
+    },
+    {
+      "k": 6,
+      "depth": 2377,
+      "two_qubit_gates": 4223
+    },
+    {
+      "k": 7,
+      "depth": 2402,
+      "two_qubit_gates": 4940
+    }
+  ]
+}
